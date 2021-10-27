@@ -1,0 +1,4 @@
+departments:
+  host: <%= ENV.fetch('DEPARTMENTS_HOST') { 'tulo_departments_app_1:50051' } %>
+env:
+  name: <%= ENV['ENV_NAME'] %>
